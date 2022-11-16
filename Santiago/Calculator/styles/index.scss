@@ -1,0 +1,148 @@
+@import 'desktop';
+@import 'variables';
+
+// Variables first and my design
+$purple: #8758FF;
+$bluesoft:#5CB8E4;
+$black: #000000;
+$white:#ffffff;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', 'Roboto', 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: $bluesoft;
+    width: 100%;
+    height: 100vh;
+    color: $white;
+}
+
+.cont{
+    width: 100%;
+    height: 640px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-family: $Font;
+    &__container{
+        padding: 25px;
+        background-color:$darkbluemain1;
+        width: 250px;
+        height: 600px;
+        display: flex;
+        flex-flow:column nowrap;   
+    }
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__theme{
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+        &-title{
+            font-size: 16px;
+        }
+    }
+}
+.header__nums__radios{
+    flex-grow: .15;
+    border: 1px solid red;
+    .nums{
+        display: flex;
+        justify-content: space-around;
+    }
+    .radios{
+        background-color:$black;
+        height: 3vh;
+        padding-right: 4px;
+        padding-left: 4px;
+        display: flex;
+        justify-content:center;
+        border-radius: 40px ;
+        .btn{
+            background-color: $redkeybackground1;
+            margin-top: 3%;
+            width: 23%;
+            height: 80%;
+            border-radius: 50%;
+        }
+        // justify-content: center;
+        // Animation doing the respective changes.
+    }
+}
+.cont__input{
+    border-radius: 20px;
+    position: relative;
+    padding: 40px;
+    margin-top: 10%;
+    background-color:$darkbluescreen1;
+    .input{
+        font-size: 2rem;
+        right: 6%;
+        bottom: 16%;
+        position: absolute;
+        border: none;
+    }
+    .input::after{
+        content: '';
+        padding: 1px;
+        background-color: #ffffff;
+    }
+}
+.cont__keys{
+    background-color: $darkbluetoggle1;
+    margin-top: 10%;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 20px;
+    div{
+        text-align: center;
+        span{
+            padding:15px 22px;  
+            border-radius: 10px;
+            background-color: $lightgrashorange1;
+            color: $darkgrayishblue1;
+            box-shadow:0 0 5px 5px $darkgrayishblue1;
+        }
+        span:hover{
+            color: $redkeybackground1;
+            cursor: pointer;
+            border: 4px solid $darkbluebackgroundshadow1;
+        }
+    }
+        .del{
+            padding: 15px 8px;
+            color: $white;
+            background-color: $darkbluetoggle1;
+        }
+    }
+    .last{
+        grid-column: 1 / 3;
+        color: $darkgrayishblue1;
+        .last span{
+            background-color:$white13;
+        }
+    }
+    .last2{
+        grid-column: 3 / 5;
+        color: $darkgrayishblue1;
+        .last2 span{
+            background-color: $redkeybackground1;
+        }
+    }
+
+
+
