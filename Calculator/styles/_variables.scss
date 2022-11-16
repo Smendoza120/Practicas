@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+$Font: 'League Spartan', sans-serif;
+
+//THEME 1
+//Backgrounds
+$darkbluemain1:hsl(222, 26%, 31%);//(main background)
+$darkbluetoggle1:hsl(223, 31%, 20%);//(toggle background, keypad background)
+$darkbluescreen1:hsl(224, 36%, 15%);//(screen background)
+
+//Keys
+$darkbluebackgroundshadow1:#637097;//(key background)
+$darkbluebackgroundshadow2:#404e72;//(key shadow)
+
+$redkeybackground1:#d03f2f; //(key background, toggle)
+$darkredshadow1:#93261a; //(key shadow)
+
+$lightgrashorange1:#eae3dc;//(key background)
+$grayisorange1:hsl(28, 16%, 65%);//(key shadow)
+
+//Text
+$darkgrayishblue1:hsl(221, 14%, 31%);
+$white13:#ffffff;
+
+//Theme 2
+//Backgrounds
+$lightgray:hsl(0, 0%, 90%);//(main background)
+$grayishred:hsl(0, 5%, 81%);//(toggle background, keypad background)
+$verylight :hsl(0, 0%, 93%);//(screen background)
+
+//Keys
+$moderatecyan: hsl(185, 42%, 37%);//(key background)
+$dahslrkcyan:hsl(185, 58%, 25%);//(key shadow)
+
+$oragebacktgl:hsl(25, 98%, 40%);//(key background, toggle)
+$darkorangeshadw:hsl(25, 98%, 40%);//(key shadow)
+
+$lightgrayishyellow: hsl(45, 7%, 89%);//(key background)
+$darkgrayishorange :hsl(35, 11%, 61%);//(key shadow)
+
+//Text
+$verydarkgrayishyellow:hsl(60, 10%, 19%); 
+$whitetext:hsl(0, 0%, 100%);//(text)
+
+//Theme 3
+//Backgrounds
+$darkviolet: hsl(268, 75%, 9%);//(main background)  
+$darkviolettglbckgrd:hsl(268, 71%, 12%);//(toggle background, keypad background, screen background)
+
+//Keys
+$darkvioletback: hsl(281, 89%, 26%);//(key background)
+$sividmagent:hsl(285, 91%, 52%);//(key shadow)
+
+$purecyan:hsl(176, 100%, 44%);//(key background, toggle)
+$softcyan:hsl(177, 92%, 70%);//(key shadow)
+
+$VeryDarkViolet: hsl(268, 47%, 21%);//(key background)
+$DarkMagenta: hsl(290, 70%, 36%);//(key shadow)
+
+//Text
+$lightyellow:hsl(52, 100%, 62%); 
+$darkblue:hsl(198, 20%, 13%); 
+$white: hsl(0, 0%, 100%);
+
+//Typography
+$fontsizenumbers:32px;
+
